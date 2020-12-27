@@ -7,11 +7,11 @@ class Sender():
         self.attach=[]
         label=Label(self.root,bg='#c0ded9',bd=5,relief=FLAT).pack(fill=BOTH)   #0099ff
 
-        # creation of frame ...
+       
         self.main_frame=Frame(self.root,width=600,bd=5,relief=GROOVE)
         self.main_frame.pack(side=LEFT,fill=Y)
 
-        # widget of left frame ...
+       
         font=('arial',12,'bold')
         self.to_label=Label(self.main_frame,text='To',font=font)
         self.to_label.place(x=0,y=10)
@@ -25,7 +25,7 @@ class Sender():
         self.subject_entry=Entry(self.main_frame, font=('arial', 12), width=50, bd=2)
         self.subject_entry.place(x=70, y=40)
 
-        self.text_frame=Frame(self.main_frame,bd=2,bg='#eaece5')
+        self.text_frame=Frame(self.main_frame,bd=2,bg='#eaece5') #bd=background color and bd=border
         self.text_frame.place(x=0,y=80,height=450,width=585)
 
         scrolly=Scrollbar(self.text_frame)
