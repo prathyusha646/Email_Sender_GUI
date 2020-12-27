@@ -66,7 +66,7 @@ class Sender():
 
         self.password_entry=Entry(self.top, width=20, font=('arial', 12), bd=2)
         self.password_entry.grid(row=1, column=1, padx=20, pady=5)
-        self.password_entry.config(show='*')
+        self.password_entry.config(show='.')
 
         # login button and logout buttons ..
         log_in=Button(self.top,text="Log in",width=10,font=('arial',12,'bold'),command=self.log_in_sucessfull)
