@@ -1,4 +1,4 @@
-import yagmail  # pip install yagmail
+import yagmail  
 from plyer import notification
 class LogicMail():
     def __init__(self,sender_email,sender_password):
